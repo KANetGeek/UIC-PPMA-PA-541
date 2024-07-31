@@ -1,31 +1,63 @@
 ---
-title: "MY COURSE CODE - MY COURSE NAME"
+title: "PA 541 - Advanced Data Analysis 1"
 format:
   html:
     include-before-body: helpers/remove-nav.html
     include-after-body: helpers/remove-title.html
 ---
 
-# 📑 Course Brief
+# 📑 Overview
 
-**Focus:** the focus of this course is to learn stuff
+**Course focus:** 
 
-**How:** hands-on learning
+This course introduces modern econometric and statistical techniques that are useful for applied researchers and analysts in social sciences. The main focus will be on developing your ability to design and interpret statistical models based on a strong conceptual understanding of modeling assumptions and limitations.
+
+Topics to be covered in this course include:
+
+- Cleaning and transforming data
+- Utilizing Quarto for reporting analysis and findings
+- Data visualization
+- Standard Ordinary Least Squares (OLS) regression
+- Regression with binary and categorical predictors
+- Regression with limited dependent variables
+- Introduction to panel data methods
+- Directed acyclic graphs (DAGs) for causal inference
+
+**Course logistics:** 
+
+- Each Monday, we will meet in person from 3pm to 5pm
+- Classroom: TBD
+- An additional 45 minute lab time will be scheduled by coordinating schedules in our first class. This weekly lab will be hosted on Zoom and is optional, but highly recommended. 
+
 
 # 🎯 Learning Objectives
 
-- You will discover how to do X
-- Distinguish X from **X**
-- Practice how to put things _in italic_
-- Discover how to highlight `code` inline
-- Proceed to learn stuff
+- Review how to import, clean, and wrangle data in R
+- Visualize data in R
+- Use Quarto to produce documents that integrate code, output, and text
+- Understand the assumptions of regression models and what to do when those assumptions are violated
+- Interpret the output of statistical models
+- Test hypotheses about model parameters and exclusion restrictions
+- Use and interpret categorical predictors in statistical models
+- Use and interpret interaction terms to assess moderation
+- Understand the basics of generalized linear models
+- Comprehend the advantages of panel data; run and interpret panel data models
+- Examine directed acyclic graphs (DAGs) to model the data-generating process and identify confounders, colliders, and mediators
+
+# ✍️ Assessments
+
+- Four problem set homework assignments (5% each, 20% total)
+- Take home midterm (25%)
+- Take home final exam (25%)
+- Data analysis paper (20%)
+- Class engagement (10%)
 
 
 -----------------
 
 **Select Academic Year/Term:**
 
-<a href="2023/index.qmd">
+<a href="2024/index.qmd">
     <button class="button-61">2022/23</button>
 </a>
 

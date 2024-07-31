@@ -1,6 +1,6 @@
 ---
-title: "MY_COURSE_CODE - MY_COURSE_NAME"
-subtitle: "Academic Year: 2022/23"
+title: "PA 541 fall 2024"
+subtitle: "Advanced Data Analysis I"
 format: html
 ---
 

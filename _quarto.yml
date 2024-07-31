@@ -12,37 +12,33 @@ website:
   page-navigation: true
   reader-mode: true
   open-graph: true
-  twitter-card: 
-    creator: "@<twitter-handle>"
-    site: "\\@<twitter-handle>"
-  favicon: "figures/icons/course_favicon.png"
   search:
     location: navbar
     type: textbox
   sidebar:
     style: docked
     contents:
-      - href: 2023/index.qmd
+      - href: 2024/index.qmd
         text: "🏠 Home"
-      # - href: 2023/syllabus.qmd
+      # - href: 2024/syllabus.qmd
       #   text: "📓 Syllabus"
-      # - href: 2023/communication.qmd
+      # - href: 2024/communication.qmd
       #   text: "📟 Communication"
-      # - href: 2023/assignments.qmd
-      #   text: "✍️ Assignments"
+      # - href: 2024/assignments.qmd
+      #   text: "✍️ Problem set homework"
       #   contents:
-      #     - href: 2023/assignments/assignment01.qmd
-      #       text: "📝 Assignment 01"
-      #     - href: 2023/assignments/assignment02.qmd
-      #       text: "📝 Assignment 02"
-      #     - href: 2023/assignments/group_project.qmd
+      #     - href: 2024/assignments/assignment01.qmd
+      #       text: "📝 Problem set 01"
+      #     - href: 2024/assignments/assignment02.qmd
+      #       text: "📝 Problem set 02"
+      #     - href: 2024/assignments/group_project.qmd
       #       text: "👥 Group Project"
       - section: "🗓️ Weeks"
         contents:
-         - href: 2023/weeks/week01/page.qmd
+         - href: 2024/weeks/week01/page.qmd
            text: Week 01
            contents:
-             - href: 2023/weeks/week01/page.qmd
+             - href: 2024/weeks/week01/page.qmd
                text: 👨‍🏫 Lecture Material
             #  - href: 2023/weeks/week01/lab.qmd
             #    text: 💻 Lab Roadmap
@@ -53,7 +49,7 @@ website:
     background: primary
   page-footer:
     background: light
-    left: "Copyright 2023, MY INSTITUTION" 
+    left: "Copyright 2024, Kate Albrecht, PhD" 
 
 
 
@@ -63,8 +59,8 @@ csl: references/chicago-author-date.csl
 
 format:
   html:
-    author: Dr. [MY NAME](#)
-    author-meta: Dr. MY NAME
+    author: Dr. [Kate Albrecht](#)
+    author-meta: Dr. Kate Albrecht
     date-format: "DD MMMM YYYY"
 
     email-obfuscation: javascript
@@ -74,7 +70,7 @@ format:
 
     theme:
       light: 
-        - journal
+        - lux
         - css/custom.scss # I use this just to change the default colour
     css: 
       - css/custom_style.css
